@@ -1,9 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SiteCockpit\EasyVisionBundle\EventListener;
 
-use Contao\CoreBundle\DependencyInjection\Attribute\AsHook;
 use Contao\Config;
+use Contao\CoreBundle\DependencyInjection\Attribute\AsHook;
 
 #[AsHook('replaceDynamicScriptTags')]
 class ReplaceDynamicScriptTagsListener
@@ -16,9 +18,9 @@ class ReplaceDynamicScriptTagsListener
 
         $key = trim(Config::get('easyVisionKey'));
 
-        $GLOBALS['TL_BODY'][] = sprintf(
+        $GLOBALS['TL_BODY'][] = \sprintf(
             "<script type='module' src='https://cdn.sitecockpit.com/cdn/app.js' data-easy-vision-key='%s'></script>",
-            $key
+            $key,
         );
 
         return $buffer;

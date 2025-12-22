@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SiteCockpit\EasyVisionBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
@@ -13,7 +15,7 @@ class SiteCockpitEasyVisionExtension extends Extension
     {
         $loader = new YamlFileLoader(
             $container,
-            new FileLocator(__DIR__ . '/../Resources/config')
+            new FileLocator(__DIR__.'/../Resources/config'),
         );
         $loader->load('services.yaml');
     }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace SiteCockpit\EasyVisionBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
