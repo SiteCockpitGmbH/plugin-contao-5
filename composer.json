@@ -1,6 +1,7 @@
 {
   "name": "sitecockpit/easy-vision-contao5",
   "version": "1.0.0",
+  "description": "Description goes here",
   "type": "contao-bundle",
   "homepage": "https://www.sitecockpit.com",
   "license": "proprietary",
