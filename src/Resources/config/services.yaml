@@ -1,0 +1,4 @@
+services:
+  SiteCockpit\EasyVisionBundle\EventListener\ReplaceDynamicScriptTagsListener:
+    tags:
+      - { name: contao.hook, hook: replaceDynamicScriptTags }

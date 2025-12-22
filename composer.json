@@ -1,0 +1,18 @@
+{
+  "name": "sitecockpit/easy-vision-contao5",
+  "version": "1.0.0",
+  "type": "contao-bundle",
+  "homepage": "https://www.sitecockpit.com",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SiteCockpit\\EasyVisionBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "SiteCockpit\\EasyVisionBundle\\ContaoManager\\Plugin"
+  }
+}
