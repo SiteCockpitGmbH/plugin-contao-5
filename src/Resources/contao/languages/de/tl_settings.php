@@ -12,5 +12,5 @@ $GLOBALS['TL_LANG']['tl_settings']['easyVisionDocsLabel'] = 'Dokumentation';
 $GLOBALS['TL_LANG']['tl_settings']['easyVisionSupportLabel'] = 'Hilfe & Support';
 
 $GLOBALS['TL_LANG']['tl_settings']['easyVisionManufacturerUrl'] = 'https://www.sitecockpit.com';
-$GLOBALS['TL_LANG']['tl_settings']['easyVisionDocsUrl'] = 'https://www.sitecockpit.com/rediret/docs-easyvision-contao';
-$GLOBALS['TL_LANG']['tl_settings']['easyVisionSupportUrl'] = 'https://www.sitecockpit.com/rediret/support-en';
+$GLOBALS['TL_LANG']['tl_settings']['easyVisionDocsUrl'] = 'https://www.sitecockpit.com/redirect/docs-easyvision-contao';
+$GLOBALS['TL_LANG']['tl_settings']['easyVisionSupportUrl'] = 'https://www.sitecockpit.com/redirect/support-en';
