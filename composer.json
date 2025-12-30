@@ -1,6 +1,5 @@
 {
   "name": "sitecockpit/easy-vision-contao5",
-  "version": "1.0.0",
   "description": "Integrate SiteCockpit into Contao: automated accessibility monitoring, frontend widget & legally compliant accessibility declaration. Integration takes just a few minutes!",
   "type": "contao-bundle",
   "homepage": "https://www.sitecockpit.com",
