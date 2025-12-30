@@ -44,12 +44,12 @@ $GLOBALS['TL_DCA']['tl_settings']['fields']['easyVisionInfo'] = [
     },
 ];
 
-$GLOBALS['TL_DCA']['tl_settings']['subpalettes']['easyVisionEnable'] = 'easyVisionKey,easyVisionInfo';
+$GLOBALS['TL_DCA']['tl_settings']['subpalettes']['easyVisionEnable'] = 'easyVisionKey';
 
 $GLOBALS['TL_DCA']['tl_settings']['config']['onload_callback'][] = static function (): void {
     PaletteManipulator::create()
         ->addLegend('easy_vision_legend', 'general_legend', PaletteManipulator::POSITION_AFTER)
-        ->addField('easyVisionEnable', 'easy_vision_legend')
+        ->addField(['easyVisionEnable', 'easyVisionInfo'], 'easy_vision_legend')
         ->applyToPalette('default', 'tl_settings')
     ;
 };
